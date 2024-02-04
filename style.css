@@ -8,23 +8,37 @@ body {
 h1 {
     font-family: 'Times New Roman';
     font-size: 24pt;
-    color: #740000; 
+    color: #ff0000; 
 }
 
 h2 {
     font-family: 'Comic Sans MS';
     font-size: 18pt;
-    color: #a00000; 
+    color: #8b0000; 
 }
 
 h3 {
     font-family: 'Georgia';
     font-size: 14pt;
-    color: #e74242; 
+    color: #3e0000; 
 }
 
 p {
     font-family: Arial;
     font-size: 13pt;
-    color: #848383; 
+    color: #444444; 
+}
+
+a:link,a:visited {
+    text-decoration: none; 
+    color: #0066cc; 
+}
+
+a:hover {
+    text-decoration: underline; 
+    color: red; 
+}
+
+a:active {
+    color: #490000; 
 }
