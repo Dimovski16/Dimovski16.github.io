@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 12pt;
-    color: #000000; 
+    color: #737373; 
     margin: 12pt;
 }
 
@@ -14,19 +14,19 @@ h1 {
 h2 {
     font-family: 'Comic Sans MS';
     font-size: 18pt;
-    color: #8b0000; 
+    color: #353535; 
 }
 
 h3 {
     font-family: 'Georgia';
     font-size: 14pt;
-    color: #3e0000; 
+    color: #000000; 
 }
 
 p {
     font-family: Arial;
     font-size: 13pt;
-    color: #444444; 
+    color: #8e8e8e; 
 }
 
 a:link,a:visited {
@@ -36,12 +36,10 @@ a:link,a:visited {
 
 a:hover {
     text-decoration: underline;
-    text-shadow: 4px; 
     color: red; 
 }
 
 a:active {
     text-decoration: underline;
-    text-shadow: 2px;
     color: #490000; 
 }
