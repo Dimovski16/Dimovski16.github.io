@@ -1,7 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     font-size: 12pt;
-    color: #737373; 
+    color: #580000; 
+    background-color: #ff0000;
     margin: 12pt;
 }
 
