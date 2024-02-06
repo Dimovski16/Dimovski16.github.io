@@ -1,5 +1,5 @@
 body {
-    font-family: Arial;
+    font-family: 'Arial';
     font-size: 12pt;
     color: #006105; 
     background-color: #d6d6d6;
@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    font-family: 'Buffalo';
+    font-family: 'Open Sans';
     font-size: 30pt;
     color: #0032e6; 
 }
@@ -19,13 +19,13 @@ h2 {
 }
 
 h3 {
-    font-family: 'Comic Sans MS';
+    font-family: 'Roboto';
     font-size: 14pt;
     color: #4d5597;
   }
 
 p {
-    font-family: Helvetica;
+    font-family: 'Helvetica';
     font-size: 10pt;
     color: #515151; 
 }
@@ -44,12 +44,6 @@ a:hover {
 a:active {
   color: #007330; 
 }
-
-table {
-  border-collapse: collapse; 
-  width: 100%;
-}
-  
 td {
   border: 1px solid #dddddd;
   padding: 15px;
