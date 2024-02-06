@@ -54,17 +54,9 @@ table {
     width: 100%;
   }
   
-  td {
+  td, th{
     border: 1px solid #dddddd;
     padding: 8px;
-  }
-  
-  .box {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .link-wrapper {
-    font-weight: bold;
+ 
   }
   
