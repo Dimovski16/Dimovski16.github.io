@@ -45,8 +45,12 @@ a:active {
   color: #007330; 
 }
 
+table{
 td {
   border: 1px solid #dddddd;
+  background-color: #515151;
   padding: 15px;
   text-align: center;
+  border: 2pt;
+}
 }
