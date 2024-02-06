@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial';
     font-size: 12pt;
-    color: #006105; 
+    color: #00b809; 
     background-color: #d6d6d6;
     margin: 11pt;
 }
@@ -47,10 +47,9 @@ a:active {
 
 table{
 td {
-  border: 1px solid #dddddd;
-  background-color: #515151;
+  border: 5px solid #000000;
+  background-color: #bdbdbd;
   padding: 15px;
   text-align: center;
-  border: 2pt;
 }
 }
