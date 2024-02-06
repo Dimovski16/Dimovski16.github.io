@@ -29,7 +29,15 @@ p {
     font-size: 13pt;
     color: #00ff00; 
 }
-
+a {
+    text-decoration: none;
+    color: #3498db;
+  }
+  
+a:hover {
+    text-decoration: underline;
+  }
+  
 a:link,a:visited {
     text-decoration: none; 
     color: #0066cc; 
@@ -67,14 +75,5 @@ body {
   
   .description-wrapper {
     margin-top: 5px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #3498db;
-  }
-  
-  a:hover {
-    text-decoration: underline;
   }
   
