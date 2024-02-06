@@ -3,7 +3,7 @@ body {
     font-family: Arial;
     font-size: 12pt;
     color: #006105; 
-    background-color: #afafaf;
+    background-color: #d6d6d6;
     margin: 11pt;
 }
 
@@ -31,19 +31,19 @@ p {
     color: #515151; 
 }
   
-a:hover {
-    text-decoration: underline;
-    color: #ff0000;
-  }
-  
-  a:active {
-    text-decoration: underline;
-    color: #560000; 
+a:link,
+a:visited {
+  color: #3498db; 
+  text-decoration: none;
 }
 
-a:link,a:visited {
-    text-decoration: none; 
-    color: #11ff00; 
+a:hover {
+  color: #00ff04; 
+  text-decoration: underline; 
+}
+
+a:active {
+  color: #007330; 
 }
 
 table {
@@ -55,13 +55,4 @@ td {
   border: 1px solid #dddddd;
   padding: 15px;
   text-align: center;
-}
-  
-.box {
-  display: flex;
-  flex-direction: column;
-}
-  
-.link-wrapper {
-  font-weight: bold;
 }
