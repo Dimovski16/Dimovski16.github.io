@@ -56,12 +56,12 @@ body {
     font-family: Arial, sans-serif;
   }
   
-  table {
+table {
     border-collapse: collapse;
     width: 100%;
   }
   
-  td {
+td {
     border: 1px solid #dddddd;
     padding: 8px;
     text-align: left;
@@ -69,11 +69,11 @@ body {
     flex-direction: column;
   }
   
-  .link-wrapper {
+.link-wrapper {
     font-weight: bold;
   }
   
-  .description-wrapper {
+.description-wrapper {
     margin-top: 5px;
   }
   
