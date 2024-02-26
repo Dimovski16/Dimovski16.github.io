@@ -1,16 +1,17 @@
-function promptForName() {
-    var name = prompt("Please enter your name here :");
-    if (name !== null && name !== "") {
-        document.getElementById("username :").innerText = "Hello " + name + ", Welcome to my website !";
+function promptName() {
+    var name = prompt("Please enter your name:");
+    if (name != null && name != "") {
+      document.getElementById("output").innerHTML = "Hello, " + name + "! Welcome to my homepage.";
+    } else {
+      document.getElementById("output").innerHTML = "You didn't enter your name.";
     }
-}
-window.onload = function() {
-    var img = document.getElementById("enlargeableImage");
-    img.addEventListener("click", function() {
-        enlargeImage(this);
-    });
-}
+  }
 
-function enlargeImage(img) {
-    img.style.width = (parseInt(img.style.width) || img.width) * 1.5 + "px";
-}
+  function enlargeImage() {
+    var image = document.getElementById("AD16.jpeg");
+    if (image.style.width === "200px") {
+      image.style.width = "400px"; 
+    } else {
+      image.style.width = "200px";
+    }
+  }
