@@ -8,7 +8,7 @@ function promptName() {
   }
 
   function enlargeImage() {
-    var image = document.getElementById("AD16.jpeg");
+    var image = document.getElementById("AD16");
     if (image.style.width === "200px") {
       image.style.width = "400px"; 
     } else {
