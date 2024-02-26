@@ -1,11 +1,12 @@
-function promptName() {
+  function promptName() {
     var name = prompt("Please enter your name:");
     if (name != null && name != "") {
-      document.getElementById("output").innerHTML = "Hello, " + name + "! Welcome to my homepage.";
+      document.getElementById("username").innerHTML = "Hello, " + name + "! Welcome to my homepage.";
     } else {
-      document.getElementById("output").innerHTML = "You didn't enter your name.";
+      document.getElementById("username").innerHTML = "You didn't enter your name.";
     }
   }
+  
 
   function enlargeImage() {
     var image = document.getElementById("AD16");
