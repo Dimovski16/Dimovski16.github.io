@@ -4,7 +4,6 @@
 <head>
     <title>My Educational Experience </title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js"></script>
 
 </head>
 
@@ -15,6 +14,13 @@
         <button onclick="promptName()">Please Enter Your Name</button>
         <p id="username"></p>
         <img id="AD16" src="images/AD16.jpeg" alt="Description of the image" onclick="enlargeImage()">
+        <nav>
+            <ul>
+              <li><a href="page1.html" onmouseover="mouseoverEvent(this)" onmouseout="mouseoutEvent(this)">Page 1</a></li>
+              <li><a href="page2.html" onmouseover="mouseoverEvent(this)" onmouseout="mouseoutEvent(this)">Page 2</a></li>
+              <li><a href="#" onmouseover="mouseoverEvent(this)" onmouseout="mouseoutEvent(this)">Page 3</a></li>
+            </ul>
+          </nav>
     </header>
 
     <nav>
@@ -71,7 +77,8 @@
             </td>
         </tr>
     </table>
-    
+
+    <script src="script.js"></script>
 </body>
 
 </html>
