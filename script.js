@@ -1,10 +1,16 @@
 function promptForName() {
-    var name = prompt("Please enter your name:");
+    var name = prompt("Please enter your name here :");
     if (name !== null && name !== "") {
-        document.getElementById("username").innerText = "Hello, " + name + "!";
+        document.getElementById("username :").innerText = "Hello " + name + ", Welcome to my website !";
     }
 }
-function enlargeImage() {
-    var img = document.getElementById("AD16");
-    img.style.width = (parseInt(img.style.width) || img.width) * 2 + "px";
+window.onload = function() {
+    var img = document.getElementById("enlargeableImage");
+    img.addEventListener("click", function() {
+        enlargeImage(this);
+    });
+}
+
+function enlargeImage(img) {
+    img.style.width = (parseInt(img.style.width) || img.width) * 1.5 + "px";
 }
