@@ -42,7 +42,7 @@ a:hover {
 }
 
 a:active {
-  color: #007330; 
+  color: inherit; 
 }
 
 td {
