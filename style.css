@@ -79,7 +79,7 @@ img {
   }
 
 .dropdown-content {
-  display: block;
+  display: none;
   position: absolute;
   top: auto;
   left: 0;
