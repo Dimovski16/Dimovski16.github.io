@@ -30,11 +30,9 @@ function myFunction() {
      }
     }
 
-
 function mOut(element) { 
   some_tag.style.color = red;
 }
-
 
 function mOver(some_tag){
   some_tag.style.color = blue 
