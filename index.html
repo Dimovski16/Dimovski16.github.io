@@ -14,13 +14,13 @@
         <button onclick="promptName()">Please Enter Your Name</button>
         <p id="username"></p>
         <img id="AD16" src="images/AD16.jpeg" alt="Description of the image" onclick="enlargeImage()">
-        <nav>
-            <ul>
-              <li><a href="page1.html" onmouseover="mouseoverEvent(this)" onmouseout="mouseoutEvent(this)">Page 1</a></li>
-              <li><a href="page2.html" onmouseover="mouseoverEvent(this)" onmouseout="mouseoutEvent(this)">Page 2</a></li>
-              <li><a href="#" onmouseover="mouseoverEvent(this)" onmouseout="mouseoutEvent(this)">Page 3</a></li>
-            </ul>
-          </nav>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Dropdown</button> 
+            <div id="myDropdown" class="dropdown-content">
+            <a href="page1.html">Page 1</a> 
+            <a href="page2.html">Page 2</a> 
+            <a href="#">Page 3</a> 
+        </div>
     </header>
 
         <h2>Education</h2>
