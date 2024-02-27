@@ -33,9 +33,11 @@ function myFunction() {
 
 function mOut(element) { 
   some_tag.innerHTML = "Mouse Over Me";
-  some_tag.style.color = orange;}
+  some_tag.style.color = orange;
+}
 
 
 function mOver(some_tag){
   some_tag.innerHTML = "Thanks";
-  some_tag.style.color = blue }
+  some_tag.style.color = blue 
+}
