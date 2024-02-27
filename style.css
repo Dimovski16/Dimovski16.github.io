@@ -84,6 +84,7 @@ img {
   top: auto;
   left: 0;
   min-width: 150px;
+  margin-top: auto;
   }
 
   .dropdown-content a {
