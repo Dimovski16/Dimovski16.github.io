@@ -31,10 +31,10 @@ function myFunction() {
     }
     
 function mouseOverNav(element) {
-      element.style.color = "FF0000";
+      element.style.color = "#FF0000";
       element.style.backgroundColor = "transparent";
   }
   
 function mouseOutNav(element) {
-      element.style.color = "0000FF"; 
+      element.style.color = "#0000FF"; 
       element.style.backgroundColor = "transparent"; }
