@@ -56,7 +56,6 @@ div {
   width: 120px;
   height: 20px;
   padding: 40px;
-
 }
 
 button { 
@@ -64,13 +63,15 @@ button {
   size: 50px;
   align-self: center;
 }
+
 img {
     width: 200px;
   transition: width 0.5s ease;
 }
 
 .dropbtn {
-  font-size: 20px; }
+  font-size: 20px; 
+}
 
 .dropdown {
   position: relative; 
@@ -79,12 +80,16 @@ img {
 
 .dropdown-content {
   display: none;
-  position: absolute; min-width: 200px;
+  min-width: 90px;
   }
 
   .dropdown-content a {
-  display: block; }
+  display: block; 
+}
   
-  .dropdown-content a:hover {background-color: #9a9a9a}
+  .dropdown-content a:hover {
+    background-color: #9a9a9a
+  }
 
-  .show {display:block;}
+  .show {display:block;
+  }
